@@ -1,0 +1,149 @@
+/*header*/
+.topnav {
+    position: fixed;
+    top: 0;
+    background-color: green;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin-bottom: 0px;
+    margin-left: -8px;
+    margin-right: 0px;
+    padding: 0px;
+    padding-bottom: 3px;
+    
+
+}
+.logo {
+    color:white;
+    float: left;
+    font-family: Bungee;
+    font-size: 25px;
+    padding-top: -20px;
+
+}
+.topnav a:hover {
+    color: black;
+    opacity: 0.6;
+    transition: 0.1s;
+    
+}
+
+.topnav a {
+    text-decoration-line: none  ;
+    color: #f0f0f0;
+    font-size: 6px;
+    font-family: Blinker;
+    font-size: larger;
+    margin-top:20px;
+    padding-left: 20px;
+    
+    
+}
+
+
+ul {
+    text-align: center;
+    padding-right: 10px;
+
+} 
+
+
+li {
+    display: inline-block;    
+    color: white;
+    
+}
+
+.phone {
+    display: inline-block;
+    padding-left: 35px;
+    align-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*home page*/
+#home {
+ display: block;
+
+}
+
+#home h4 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: Blinker;
+    padding-top: 130px;
+}
+
+#home p {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 33px;
+    margin-top: -72px;
+    font-size: 26px;
+    color: green;
+    font-style: italic;
+    
+}
+
+
+.bgimg {
+    background-image: url(https://media.istockphoto.com/photos/modern-gadgets-in-interior-of-coworking-office-during-covid19-picture-id1284066336?b=1&k=20&m=1284066336&s=612x612&w=0&h=7limsDsyNRg6CQzuhmUQlv85B5wO_ca0cgBqOL-YjQE=);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px 10px white inset;
+    
+}
+/*email form*/
+.request {
+    color: green;
+    font-size: 30px;
+    font-family: Blinker, Arial, Helvetica, sans-serif;
+    
+}
+
+.contact-form {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 70px;
+    border-radius: 29px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 820px;
+    margin-top: -200px;
+    
+}
+
+.inputbox {
+    padding: 15px;
+    margin-bottom: 2px;
+    margin: 5px;
+    height: 10px;
+    width: 300px;
+    border-radius: 11px;
+    border: solid 1px gray;
+
+}
+
+textarea {
+    border: 1px solid;
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+    height: 120px;
+    border-radius: 11px;
+    border: solid 1px gray;
+    
+}
+button {
+    width: 340px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 0px;
+    
+}
+
+button:hover {
+    background-color: #4CBF72;
+    transition: 0.1s;
+}
+
